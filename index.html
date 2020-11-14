@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width:device-width, initial-scale=1.0" >
+  <title>Creative Visionary Uganda Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1 id="title">Creative Visionary Uganda </h1>
+      <p id="description"><em>Below is a survey form, required of you is to fill the fields genuinely to enable us improve our service system</em>. <br />
+        <span>Thank you!</span></p>
+    </header>
+    <form method="get" id="survey-form">
+      <div class="form-group">
+        <label for="name-label">Name</label><br />
+        <input type="text" id="name-label" placeholder="Enter your name" name="Name" class="input" required>
+      </div>
+      <div class="form-group">
+        <label for="email-label">Email</label><br />
+        <input type="email" id="email-label" placeholder="Enter your email" name="Email" class="input" required>
+      </div>
+      <div class="form-group">
+        <label for="number-label">Age</label><br />
+        <input type="number" id="number-label" placeholder="Age" min="8" max="100" class="input" name="Age">
+      </div>
+      <div class="form-group">
+        <p id="p-select">What level of learning code are you at?</p>
+        <select id="dropdown" name="Level" required>
+          <option disabled selected value> Select current level</option>
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Advanced">Advanced</option>
+          <option value="Junior">Junior</option>
+          <option value="Professional">Professional</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p id="p-rate">How would you rate Creative Visionary Uganda?</p>
+        <label class="chose">
+               <input type="radio" value="Very Good" name="rate" class="rate-rate">
+          Very Good
+        </label>
+        <label class="chose">
+                <input type="radio" value="Good" name="rate" class="rate-rate"> 
+          Good
+        </label>
+        <label class="chose">
+                <input type="radio" value="Fair" name="rate" class="rate-rate">
+          Fair
+        </label>
+        <label class="chose">
+                <input type="radio" value="Promising" name="rate" class="rate-rate">
+          Promising
+        </label>
+         <label class="chose">
+                <input type="radio" value="Bad" name="rate" class="rate-rate">
+           Bad
+        </label>
+      </div>
+      <div class="form-group">
+        <p id="p-include">Here are some of the new courses we plan to include in our curriculum, what course(s) would you take on? </p>
+        <label class="chose">
+          <input type="checkbox" name="New" class="new-include" value="Data Visualization">
+          Data Visualization
+        </label>
+        <label class="chose">
+          <input type="checkbox" name="New" class="new-include" value="APIs and Microservices">
+          APIs and Microservices
+        </label>
+        <label class="chose">
+          <input type="checkbox" name="New" class="new-include" value="Quality Assurance">
+          Quality Assurance
+        </label>
+        <label class="chose">
+          <input type="checkbox" name="New" class="new-include" value="Data Analysis with Python">
+          Data Analysis with Python
+        </label>
+        <label class="chose">
+          <input type="checkbox" name="New" class="new-include" value="Machine Learning with Python">
+          Machine Learning with Python
+        </label>
+        <label class="chose">
+          <input type="checkbox" name="New" class="new-include" value="Information Security">
+          Information Security
+        </label>
+        <label class="chose">
+          <input type="checkbox" name="New" class="new-include" value="Java Algorithms and Data Structures">
+          Java Algorithms and Data Structures
+        </label>
+      </div>
+      <div class="form-group">
+        <p id="p-comments">If you have any comments or suggestions?</p>
+        <textarea placeholder="Please write your comment here" name="comments"></textarea>
+      </div>
+      <div class="form-group button" >
+        <button type="button">Submit</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
