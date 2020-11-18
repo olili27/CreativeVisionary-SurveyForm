@@ -126,12 +126,14 @@ button{
 /* end of form */
 
 /* media query at 1000px */
-main{
-  width:80%;
-}
-
-#survey-form{
-  width:80%;
+@media(max-width:1000px){
+  main{
+    width:80%;
+  }
+  
+  #survey-form{
+    width:80%;
+  }
 }
 
 /* media query at 1000px */
