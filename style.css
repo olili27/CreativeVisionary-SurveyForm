@@ -149,6 +149,15 @@ button{
 
 /* media query at 600px */
 
+/* media query at 450px */
+@media(max-width:450px){
+  #survey-form{
+    width:95%;
+  }
+}
+
+/* media query at 450px */
+
 
 
 
