@@ -120,13 +120,19 @@ button{
   height:2.5rem;
   font-size:20px;
   color:#eee;
-  background:#161;
+  background:rgb(3, 131, 3);
   outline:none;
 }
 /* end of form */
 
 /* media query at 1000px */
+main{
+  width:80%;
+}
 
+#survey-form{
+  width:80%;
+}
 
 /* media query at 1000px */
 
