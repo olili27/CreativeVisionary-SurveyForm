@@ -10,7 +10,7 @@
 body{
   /* color:#eee; */
   font-size:26px;
-  background-image:url('/bg.jpeg');
+  background-image:url('bg.jpeg');
   background-size:70%;
   background-position:center;
 }
