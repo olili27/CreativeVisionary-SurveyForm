@@ -53,7 +53,7 @@ span{
 
 /* start of form */
 #survey-form{
-  width:50%;
+  width:55%;
   min-height:100vh;
   background:#226;
   padding:1rem;
@@ -127,9 +127,13 @@ button{
 /* end of form */
 
 /* media query at 1000px */
-@media(max-width:1000px){  
+@media(max-width:1000px){ 
+  main{
+    width:70%;
+  }
+  
   #survey-form{
-    width: 70%;
+    width: 60%;
     font-size: 20px;
   }
 }
