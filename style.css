@@ -60,6 +60,7 @@ span{
   margin:1rem auto;
   border-radius:5px;
   color: #fff;
+  font-size: 22px;
 }
 
 .input{
@@ -70,9 +71,9 @@ span{
 }
 
 select{
-  font-size:50%;
+  font-size:60%;
   outline:none;
-  padding:5px;
+  padding:8px;
   margin-top:0.5rem;
   width:100%;
 }
@@ -126,17 +127,24 @@ button{
 /* end of form */
 
 /* media query at 1000px */
-@media(max-width:1000px){
-  main{
-    width:80%;
+@media(max-width:1000px){  
+  #survey-form{
+    width: 70%;
+    font-size: 20px;
   }
-  
+}
+/* media query at 1000px */
+
+/* media query at 600px */
+@media(max-width:600px){
   #survey-form{
     width:80%;
+    font-size: 18px;
   }
 }
 
-/* media query at 1000px */
+/* media query at 600px */
+
 
 
 
