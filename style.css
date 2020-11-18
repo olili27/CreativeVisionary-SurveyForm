@@ -8,7 +8,7 @@
 
 /* start of the body */
 body{
-  color:#eee;
+  /* color:#eee; */
   font-size:26px;
   background-image:url('/bg.jpeg');
   background-size:55%;
@@ -47,6 +47,7 @@ em{
 span{
   font-size:24px;
   padding:10px;
+  color: #eee;
 }
 /* end of header */
 
@@ -58,6 +59,7 @@ span{
   padding:1rem;
   margin:1rem auto;
   border-radius:5px;
+  color: #fff;
 }
 
 .input{
@@ -68,7 +70,7 @@ span{
 }
 
 select{
-  font-size:20px;
+  font-size:50%;
   outline:none;
   padding:5px;
   margin-top:0.5rem;
@@ -88,14 +90,14 @@ textarea{
 }
 
 ::placeholder{
-  font-size:20px;
+  font-size:100%;
 }
 
 .form-group{
   text-align:left;
   margin:1rem;
 }
-.form group{
+.form-group{
   margin:0 auto 3rem auto;
 }
 
@@ -123,6 +125,10 @@ button{
 }
 /* end of form */
 
+/* media query at 1000px */
+
+
+/* media query at 1000px */
 
 
 
