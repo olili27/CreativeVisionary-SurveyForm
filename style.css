@@ -152,6 +152,11 @@ button{
 
 /* media query at 450px */
 @media(max-width:450px){
+header{
+  width: 100%;
+  margin: auto;
+}
+
   #survey-form{
     width:95%;
   }
