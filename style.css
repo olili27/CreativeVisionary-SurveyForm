@@ -34,6 +34,7 @@ header{
 
 #title{
   color:#fff;
+  text-shadow: 0 0 4px ;
 }
 
 #description{
@@ -158,6 +159,10 @@ button{
 header{
   width: 100%;
   margin: auto 0;
+}
+
+#title{
+  font-size: 28px;
 }
 
 em{
